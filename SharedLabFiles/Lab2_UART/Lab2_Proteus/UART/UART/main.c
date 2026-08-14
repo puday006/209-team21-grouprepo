@@ -16,7 +16,7 @@
 
 #define PRIMES_LEN 62
 
-#define STAGE 3 /*determines which part of the lab runs (4.5,4.6,4.7) */
+#define STAGE 1 /*determines which part of the lab runs (4.5,4.6,4.7) */
 
 bool is_prime(uint16_t v) {
 	if (v < 2) return false;
@@ -32,8 +32,8 @@ int main(void) {
 	#if STAGE == 1
 	/* Q4.5: send '3' every 0.5s */
 	while (1) {
-		usart_transmit('3');
-		_delay_ms(500);
+		usart_transmit('A');
+		_delay_ms(100);
 	}
 
 	#elif STAGE == 2
