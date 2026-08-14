@@ -1,0 +1,15 @@
+LTspice 26.0.2 for MacOS
+Circuit: /Users/karthikeyanmanorajah/Documents/GitHub/209_2026/Labs/Lab1_Sensors/Lab1_Spice/Draft1.net
+Start Time: Tue Aug 11 17:31:20 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.262 seconds.
+
+Files loaded:
+/Users/karthikeyanmanorajah/Documents/GitHub/209_2026/Labs/Lab1_Sensors/Lab1_Spice/Draft1.net
+/Users/karthikeyanmanorajah/Library/Application Support/LTspice/Bottles/ltspice/drive_c/users/crossover/AppData/Local/LTspice/lib/cmp/standard.bjt
+
